@@ -37,6 +37,7 @@ class ExtractData:
                     split = tup.split('/')
                     if len(split) < 2:
                         continue
+
                     split_word = '/'.join(split[:-1])
                     split_tag = split[-1]
 
